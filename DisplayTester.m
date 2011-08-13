@@ -13,11 +13,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-	window = [[NSWindow alloc] initWithContentRect:[[NSScreen mainScreen] frame]
-										 styleMask:NSBorderlessWindowMask
-										   backing:NSBackingStoreBuffered
-											 defer:YES
-											screen:[NSScreen mainScreen]];
+	window = [[NSWindow alloc] initWithContentRect:[[NSScreen mainScreen] frame] styleMask:NSBorderlessWindowMask backing:NSBackingStoreBuffered defer:NO];
 	
 	[window setBackgroundColor:[NSColor blackColor]];
 	[window setHidesOnDeactivate:YES];
