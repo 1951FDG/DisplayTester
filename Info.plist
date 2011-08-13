@@ -21,7 +21,18 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>110</string>
+	<string>120</string>
+	<key>LSArchitecturePriority</key>
+	<array>
+		<string>i386</string>
+		<string>x86_64</string>
+		<string>ppc</string>
+		<string>ppc64</string>
+	</array>
+	<key>LSMinimumSystemVersion</key>
+	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	<key>LSRequiresNativeExecution</key>
+	<true/>
 	<key>LSUIPresentationMode</key>
 	<integer>4</integer>
 	<key>NSHumanReadableCopyright</key>
